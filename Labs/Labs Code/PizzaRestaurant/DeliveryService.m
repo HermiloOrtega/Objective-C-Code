@@ -1,0 +1,23 @@
+//
+//  DeliveryService.m
+//  PizzaRestaurant
+//
+//  Created by Jose Hermilo Ortega Martinez on 2020-06-18.
+//  Copyright © 2020 Jose Hermilo Ortega Martinez. All rights reserved.
+//
+
+#import "DeliveryService.h"
+#import "Pizza.h"
+#import "Kitchen.h"
+
+@implementation DeliveryService
+
+    - (void)deliverPizza:(Pizza *)pizza{
+        NSLog(@"Pizza delivered");
+    }
+    - (void)saveOrder:(Pizza *)pizza{
+        [_history addObject:[pizza description]];
+    }
+    
+
+@end

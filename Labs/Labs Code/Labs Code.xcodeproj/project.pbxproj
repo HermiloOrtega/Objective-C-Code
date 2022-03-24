@@ -1,0 +1,1067 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D01104D324909DD3002E96AC /* Box.m in Sources */ = {isa = PBXBuildFile; fileRef = D01104D224909DD3002E96AC /* Box.m */; };
+		D01104DB2490ADD1002E96AC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D01104DA2490ADD1002E96AC /* main.m */; };
+		D01104E12490AF4C002E96AC /* Question.m in Sources */ = {isa = PBXBuildFile; fileRef = D01104E02490AF4C002E96AC /* Question.m */; };
+		D01104F92491AAEC002E96AC /* NSString+stringByPigLatinization.m in Sources */ = {isa = PBXBuildFile; fileRef = D01104F82491AAEC002E96AC /* NSString+stringByPigLatinization.m */; };
+		D032E80A249710B600807D8D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D032E809249710B600807D8D /* main.m */; };
+		D032E8102497110400807D8D /* PaymentGateway.m in Sources */ = {isa = PBXBuildFile; fileRef = D032E80F2497110400807D8D /* PaymentGateway.m */; };
+		D032E813249711AB00807D8D /* InputHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = D032E812249711AB00807D8D /* InputHandler.m */; };
+		D032E8162497180500807D8D /* StripePaymentService.m in Sources */ = {isa = PBXBuildFile; fileRef = D032E8152497180500807D8D /* StripePaymentService.m */; };
+		D032E8192497181200807D8D /* PaypalPaymentService.m in Sources */ = {isa = PBXBuildFile; fileRef = D032E8182497181200807D8D /* PaypalPaymentService.m */; };
+		D032E81F2497287900807D8D /* AmazonPaymentService.m in Sources */ = {isa = PBXBuildFile; fileRef = D032E81E2497287900807D8D /* AmazonPaymentService.m */; };
+		D032E82224972D7A00807D8D /* ApplePaymentService.m in Sources */ = {isa = PBXBuildFile; fileRef = D032E82124972D7A00807D8D /* ApplePaymentService.m */; };
+		D039C57F24999DF700A73A5E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D039C57E24999DF700A73A5E /* main.m */; };
+		D039C58524999E6100A73A5E /* Kitchen.m in Sources */ = {isa = PBXBuildFile; fileRef = D039C58424999E6100A73A5E /* Kitchen.m */; };
+		D039C58C2499A18100A73A5E /* Pizza.m in Sources */ = {isa = PBXBuildFile; fileRef = D039C58B2499A18100A73A5E /* Pizza.m */; };
+		D039C59B249B4D2B00A73A5E /* DeliveryService.m in Sources */ = {isa = PBXBuildFile; fileRef = D039C59A249B4D2B00A73A5E /* DeliveryService.m */; };
+		D039C59E249B4D3700A73A5E /* DeliveryCar.m in Sources */ = {isa = PBXBuildFile; fileRef = D039C59D249B4D3700A73A5E /* DeliveryCar.m */; };
+		D039C5A1249B51DA00A73A5E /* Manager.m in Sources */ = {isa = PBXBuildFile; fileRef = D039C5A0249B51DA00A73A5E /* Manager.m */; };
+		D039C5A4249B532F00A73A5E /* ManagerGood.m in Sources */ = {isa = PBXBuildFile; fileRef = D039C5A3249B532F00A73A5E /* ManagerGood.m */; };
+		D05B468924932F4C001F4544 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D05B468824932F4C001F4544 /* main.m */; };
+		D05B468F249340F0001F4544 /* FoodTruck.m in Sources */ = {isa = PBXBuildFile; fileRef = D05B468E249340F0001F4544 /* FoodTruck.m */; };
+		D05B469224935D70001F4544 /* Cook.m in Sources */ = {isa = PBXBuildFile; fileRef = D05B469124935D70001F4544 /* Cook.m */; };
+		D05B469524936214001F4544 /* Cook2.m in Sources */ = {isa = PBXBuildFile; fileRef = D05B469424936214001F4544 /* Cook2.m */; };
+		D05B469824937086001F4544 /* ScoreKeeper.m in Sources */ = {isa = PBXBuildFile; fileRef = D05B469724937086001F4544 /* ScoreKeeper.m */; };
+		D05B469B24937116001F4544 /* AdditionQuestion.m in Sources */ = {isa = PBXBuildFile; fileRef = D05B469A24937116001F4544 /* AdditionQuestion.m */; };
+		D05B469E249378A4001F4544 /* InputHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = D05B469D249378A4001F4544 /* InputHandler.m */; };
+		D05B46A124937985001F4544 /* QuestionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D05B46A024937985001F4544 /* QuestionManager.m */; };
+		D05B46A424937992001F4544 /* QuestionFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = D05B46A324937992001F4544 /* QuestionFactory.m */; };
+		D05B46A724937CBA001F4544 /* SubstractionQuestion.m in Sources */ = {isa = PBXBuildFile; fileRef = D05B46A624937CBA001F4544 /* SubstractionQuestion.m */; };
+		D05B46AA24937CD9001F4544 /* DivisionQuestion.m in Sources */ = {isa = PBXBuildFile; fileRef = D05B46A924937CD9001F4544 /* DivisionQuestion.m */; };
+		D05B46AD24937CE6001F4544 /* MultiplicationQuestion.m in Sources */ = {isa = PBXBuildFile; fileRef = D05B46AC24937CE6001F4544 /* MultiplicationQuestion.m */; };
+		D083FBA524983FB8004F7FD9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D083FBA424983FB8004F7FD9 /* main.m */; };
+		D083FBAB24984060004F7FD9 /* Dice.m in Sources */ = {isa = PBXBuildFile; fileRef = D083FBAA24984060004F7FD9 /* Dice.m */; };
+		D083FBAE24984330004F7FD9 /* InputHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = D083FBAD24984330004F7FD9 /* InputHandler.m */; };
+		D083FBB124984CF2004F7FD9 /* GameController.m in Sources */ = {isa = PBXBuildFile; fileRef = D083FBB024984CF2004F7FD9 /* GameController.m */; };
+		D0E2D99F248ECCBF003F7454 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E2D99E248ECCBF003F7454 /* main.m */; };
+		D0E2D9AA248ECCC4003F7454 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E2D9A9248ECCC4003F7454 /* main.m */; };
+		D0E2DA2E248ECD49003F7454 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E2DA2D248ECD49003F7454 /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D01104D62490ADD1002E96AC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		D032E805249710B600807D8D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		D039C57A24999DF700A73A5E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		D05B468424932F4C001F4544 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		D083FBA024983FB8004F7FD9 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		D0E2D99A248ECCBF003F7454 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		D0E2D9A5248ECCC4003F7454 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		D0E2DA29248ECD49003F7454 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D01104D124909DD3002E96AC /* Box.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Box.h; sourceTree = "<group>"; };
+		D01104D224909DD3002E96AC /* Box.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Box.m; sourceTree = "<group>"; };
+		D01104D82490ADD1002E96AC /* Math */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Math; sourceTree = BUILT_PRODUCTS_DIR; };
+		D01104DA2490ADD1002E96AC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D01104DF2490AF4C002E96AC /* Question.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Question.h; sourceTree = "<group>"; };
+		D01104E02490AF4C002E96AC /* Question.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Question.m; sourceTree = "<group>"; };
+		D01104F72491AAEC002E96AC /* NSString+stringByPigLatinization.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+stringByPigLatinization.h"; sourceTree = "<group>"; };
+		D01104F82491AAEC002E96AC /* NSString+stringByPigLatinization.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+stringByPigLatinization.m"; sourceTree = "<group>"; };
+		D032E807249710B600807D8D /* Payments */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Payments; sourceTree = BUILT_PRODUCTS_DIR; };
+		D032E809249710B600807D8D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D032E80E2497110400807D8D /* PaymentGateway.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PaymentGateway.h; sourceTree = "<group>"; };
+		D032E80F2497110400807D8D /* PaymentGateway.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PaymentGateway.m; sourceTree = "<group>"; };
+		D032E811249711AB00807D8D /* InputHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InputHandler.h; sourceTree = "<group>"; };
+		D032E812249711AB00807D8D /* InputHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InputHandler.m; sourceTree = "<group>"; };
+		D032E8142497180500807D8D /* StripePaymentService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StripePaymentService.h; sourceTree = "<group>"; };
+		D032E8152497180500807D8D /* StripePaymentService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StripePaymentService.m; sourceTree = "<group>"; };
+		D032E8172497181200807D8D /* PaypalPaymentService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PaypalPaymentService.h; sourceTree = "<group>"; };
+		D032E8182497181200807D8D /* PaypalPaymentService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PaypalPaymentService.m; sourceTree = "<group>"; };
+		D032E81D2497287900807D8D /* AmazonPaymentService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AmazonPaymentService.h; sourceTree = "<group>"; };
+		D032E81E2497287900807D8D /* AmazonPaymentService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AmazonPaymentService.m; sourceTree = "<group>"; };
+		D032E82024972D7A00807D8D /* ApplePaymentService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ApplePaymentService.h; sourceTree = "<group>"; };
+		D032E82124972D7A00807D8D /* ApplePaymentService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ApplePaymentService.m; sourceTree = "<group>"; };
+		D039C57C24999DF700A73A5E /* PizzaRestaurant */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PizzaRestaurant; sourceTree = BUILT_PRODUCTS_DIR; };
+		D039C57E24999DF700A73A5E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D039C58324999E5900A73A5E /* Kitchen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Kitchen.h; sourceTree = "<group>"; };
+		D039C58424999E6100A73A5E /* Kitchen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Kitchen.m; sourceTree = "<group>"; };
+		D039C58A2499A18100A73A5E /* Pizza.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Pizza.h; sourceTree = "<group>"; };
+		D039C58B2499A18100A73A5E /* Pizza.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Pizza.m; sourceTree = "<group>"; };
+		D039C599249B4D2B00A73A5E /* DeliveryService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeliveryService.h; sourceTree = "<group>"; };
+		D039C59A249B4D2B00A73A5E /* DeliveryService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeliveryService.m; sourceTree = "<group>"; };
+		D039C59C249B4D3700A73A5E /* DeliveryCar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeliveryCar.h; sourceTree = "<group>"; };
+		D039C59D249B4D3700A73A5E /* DeliveryCar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeliveryCar.m; sourceTree = "<group>"; };
+		D039C59F249B51DA00A73A5E /* Manager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Manager.h; sourceTree = "<group>"; };
+		D039C5A0249B51DA00A73A5E /* Manager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Manager.m; sourceTree = "<group>"; };
+		D039C5A2249B532F00A73A5E /* ManagerGood.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ManagerGood.h; sourceTree = "<group>"; };
+		D039C5A3249B532F00A73A5E /* ManagerGood.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ManagerGood.m; sourceTree = "<group>"; };
+		D05B254E249D44B8005077BA /* KitchenDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KitchenDelegate.h; sourceTree = "<group>"; };
+		D05B468624932F4C001F4544 /* Foodtruck */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Foodtruck; sourceTree = BUILT_PRODUCTS_DIR; };
+		D05B468824932F4C001F4544 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D05B468D249340F0001F4544 /* FoodTruck.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FoodTruck.h; sourceTree = "<group>"; };
+		D05B468E249340F0001F4544 /* FoodTruck.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FoodTruck.m; sourceTree = "<group>"; };
+		D05B469024935D70001F4544 /* Cook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Cook.h; sourceTree = "<group>"; };
+		D05B469124935D70001F4544 /* Cook.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Cook.m; sourceTree = "<group>"; };
+		D05B469324936214001F4544 /* Cook2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Cook2.h; sourceTree = "<group>"; };
+		D05B469424936214001F4544 /* Cook2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Cook2.m; sourceTree = "<group>"; };
+		D05B469624937086001F4544 /* ScoreKeeper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScoreKeeper.h; sourceTree = "<group>"; };
+		D05B469724937086001F4544 /* ScoreKeeper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScoreKeeper.m; sourceTree = "<group>"; };
+		D05B469924937115001F4544 /* AdditionQuestion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdditionQuestion.h; sourceTree = "<group>"; };
+		D05B469A24937116001F4544 /* AdditionQuestion.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdditionQuestion.m; sourceTree = "<group>"; };
+		D05B469C249378A4001F4544 /* InputHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InputHandler.h; sourceTree = "<group>"; };
+		D05B469D249378A4001F4544 /* InputHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InputHandler.m; sourceTree = "<group>"; };
+		D05B469F24937985001F4544 /* QuestionManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuestionManager.h; sourceTree = "<group>"; };
+		D05B46A024937985001F4544 /* QuestionManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuestionManager.m; sourceTree = "<group>"; };
+		D05B46A224937992001F4544 /* QuestionFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuestionFactory.h; sourceTree = "<group>"; };
+		D05B46A324937992001F4544 /* QuestionFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuestionFactory.m; sourceTree = "<group>"; };
+		D05B46A524937CBA001F4544 /* SubstractionQuestion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SubstractionQuestion.h; sourceTree = "<group>"; };
+		D05B46A624937CBA001F4544 /* SubstractionQuestion.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SubstractionQuestion.m; sourceTree = "<group>"; };
+		D05B46A824937CD9001F4544 /* DivisionQuestion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DivisionQuestion.h; sourceTree = "<group>"; };
+		D05B46A924937CD9001F4544 /* DivisionQuestion.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DivisionQuestion.m; sourceTree = "<group>"; };
+		D05B46AB24937CE6001F4544 /* MultiplicationQuestion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MultiplicationQuestion.h; sourceTree = "<group>"; };
+		D05B46AC24937CE6001F4544 /* MultiplicationQuestion.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultiplicationQuestion.m; sourceTree = "<group>"; };
+		D083FBA224983FB8004F7FD9 /* ThreeLow */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ThreeLow; sourceTree = BUILT_PRODUCTS_DIR; };
+		D083FBA424983FB8004F7FD9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D083FBA924984060004F7FD9 /* Dice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dice.h; sourceTree = "<group>"; };
+		D083FBAA24984060004F7FD9 /* Dice.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dice.m; sourceTree = "<group>"; };
+		D083FBAC24984330004F7FD9 /* InputHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InputHandler.h; sourceTree = "<group>"; };
+		D083FBAD24984330004F7FD9 /* InputHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InputHandler.m; sourceTree = "<group>"; };
+		D083FBAF24984CF2004F7FD9 /* GameController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameController.h; sourceTree = "<group>"; };
+		D083FBB024984CF2004F7FD9 /* GameController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameController.m; sourceTree = "<group>"; };
+		D0E2D99C248ECCBF003F7454 /* Lab1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Lab1; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0E2D99E248ECCBF003F7454 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D0E2D9A7248ECCC4003F7454 /* Lab2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Lab2; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0E2D9A9248ECCC4003F7454 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D0E2DA2B248ECD49003F7454 /* Lab13 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Lab13; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0E2DA2D248ECD49003F7454 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D01104D52490ADD1002E96AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D032E804249710B600807D8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D039C57924999DF700A73A5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D05B468324932F4C001F4544 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D083FB9F24983FB8004F7FD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0E2D999248ECCBF003F7454 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0E2D9A4248ECCC4003F7454 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0E2DA28248ECD49003F7454 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D01104D92490ADD1002E96AC /* Math */ = {
+			isa = PBXGroup;
+			children = (
+				D01104DA2490ADD1002E96AC /* main.m */,
+				D01104DF2490AF4C002E96AC /* Question.h */,
+				D01104E02490AF4C002E96AC /* Question.m */,
+				D05B469624937086001F4544 /* ScoreKeeper.h */,
+				D05B469724937086001F4544 /* ScoreKeeper.m */,
+				D05B469C249378A4001F4544 /* InputHandler.h */,
+				D05B469D249378A4001F4544 /* InputHandler.m */,
+				D05B469F24937985001F4544 /* QuestionManager.h */,
+				D05B46A024937985001F4544 /* QuestionManager.m */,
+				D05B46A224937992001F4544 /* QuestionFactory.h */,
+				D05B46A324937992001F4544 /* QuestionFactory.m */,
+				D05B469924937115001F4544 /* AdditionQuestion.h */,
+				D05B469A24937116001F4544 /* AdditionQuestion.m */,
+				D05B46A524937CBA001F4544 /* SubstractionQuestion.h */,
+				D05B46A624937CBA001F4544 /* SubstractionQuestion.m */,
+				D05B46A824937CD9001F4544 /* DivisionQuestion.h */,
+				D05B46A924937CD9001F4544 /* DivisionQuestion.m */,
+				D05B46AB24937CE6001F4544 /* MultiplicationQuestion.h */,
+				D05B46AC24937CE6001F4544 /* MultiplicationQuestion.m */,
+			);
+			path = Math;
+			sourceTree = "<group>";
+		};
+		D032E808249710B600807D8D /* Payments */ = {
+			isa = PBXGroup;
+			children = (
+				D032E809249710B600807D8D /* main.m */,
+				D032E80E2497110400807D8D /* PaymentGateway.h */,
+				D032E80F2497110400807D8D /* PaymentGateway.m */,
+				D032E811249711AB00807D8D /* InputHandler.h */,
+				D032E812249711AB00807D8D /* InputHandler.m */,
+				D032E8142497180500807D8D /* StripePaymentService.h */,
+				D032E8152497180500807D8D /* StripePaymentService.m */,
+				D032E8172497181200807D8D /* PaypalPaymentService.h */,
+				D032E8182497181200807D8D /* PaypalPaymentService.m */,
+				D032E81D2497287900807D8D /* AmazonPaymentService.h */,
+				D032E81E2497287900807D8D /* AmazonPaymentService.m */,
+				D032E82024972D7A00807D8D /* ApplePaymentService.h */,
+				D032E82124972D7A00807D8D /* ApplePaymentService.m */,
+			);
+			path = Payments;
+			sourceTree = "<group>";
+		};
+		D039C57D24999DF700A73A5E /* PizzaRestaurant */ = {
+			isa = PBXGroup;
+			children = (
+				D039C57E24999DF700A73A5E /* main.m */,
+				D039C58324999E5900A73A5E /* Kitchen.h */,
+				D039C58424999E6100A73A5E /* Kitchen.m */,
+				D05B254E249D44B8005077BA /* KitchenDelegate.h */,
+				D039C58A2499A18100A73A5E /* Pizza.h */,
+				D039C58B2499A18100A73A5E /* Pizza.m */,
+				D039C59F249B51DA00A73A5E /* Manager.h */,
+				D039C5A0249B51DA00A73A5E /* Manager.m */,
+				D039C5A2249B532F00A73A5E /* ManagerGood.h */,
+				D039C5A3249B532F00A73A5E /* ManagerGood.m */,
+				D039C59C249B4D3700A73A5E /* DeliveryCar.h */,
+				D039C59D249B4D3700A73A5E /* DeliveryCar.m */,
+				D039C599249B4D2B00A73A5E /* DeliveryService.h */,
+				D039C59A249B4D2B00A73A5E /* DeliveryService.m */,
+			);
+			path = PizzaRestaurant;
+			sourceTree = "<group>";
+		};
+		D05B468724932F4C001F4544 /* Foodtruck */ = {
+			isa = PBXGroup;
+			children = (
+				D05B468824932F4C001F4544 /* main.m */,
+				D05B468D249340F0001F4544 /* FoodTruck.h */,
+				D05B468E249340F0001F4544 /* FoodTruck.m */,
+				D05B469024935D70001F4544 /* Cook.h */,
+				D05B469124935D70001F4544 /* Cook.m */,
+				D05B469324936214001F4544 /* Cook2.h */,
+				D05B469424936214001F4544 /* Cook2.m */,
+			);
+			path = Foodtruck;
+			sourceTree = "<group>";
+		};
+		D083FBA324983FB8004F7FD9 /* ThreeLow */ = {
+			isa = PBXGroup;
+			children = (
+				D083FBA424983FB8004F7FD9 /* main.m */,
+				D083FBA924984060004F7FD9 /* Dice.h */,
+				D083FBAA24984060004F7FD9 /* Dice.m */,
+				D083FBAC24984330004F7FD9 /* InputHandler.h */,
+				D083FBAD24984330004F7FD9 /* InputHandler.m */,
+				D083FBAF24984CF2004F7FD9 /* GameController.h */,
+				D083FBB024984CF2004F7FD9 /* GameController.m */,
+			);
+			path = ThreeLow;
+			sourceTree = "<group>";
+		};
+		D0E2D985248ECCAA003F7454 = {
+			isa = PBXGroup;
+			children = (
+				D0E2D99D248ECCBF003F7454 /* Lab1 */,
+				D0E2D9A8248ECCC4003F7454 /* Lab2 */,
+				D0E2DA2C248ECD49003F7454 /* Lab13 */,
+				D01104D92490ADD1002E96AC /* Math */,
+				D05B468724932F4C001F4544 /* Foodtruck */,
+				D032E808249710B600807D8D /* Payments */,
+				D083FBA324983FB8004F7FD9 /* ThreeLow */,
+				D039C57D24999DF700A73A5E /* PizzaRestaurant */,
+				D0E2D98F248ECCAA003F7454 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D0E2D98F248ECCAA003F7454 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0E2D99C248ECCBF003F7454 /* Lab1 */,
+				D0E2D9A7248ECCC4003F7454 /* Lab2 */,
+				D0E2DA2B248ECD49003F7454 /* Lab13 */,
+				D01104D82490ADD1002E96AC /* Math */,
+				D05B468624932F4C001F4544 /* Foodtruck */,
+				D032E807249710B600807D8D /* Payments */,
+				D083FBA224983FB8004F7FD9 /* ThreeLow */,
+				D039C57C24999DF700A73A5E /* PizzaRestaurant */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0E2D99D248ECCBF003F7454 /* Lab1 */ = {
+			isa = PBXGroup;
+			children = (
+				D0E2D99E248ECCBF003F7454 /* main.m */,
+			);
+			path = Lab1;
+			sourceTree = "<group>";
+		};
+		D0E2D9A8248ECCC4003F7454 /* Lab2 */ = {
+			isa = PBXGroup;
+			children = (
+				D0E2D9A9248ECCC4003F7454 /* main.m */,
+				D01104D124909DD3002E96AC /* Box.h */,
+				D01104D224909DD3002E96AC /* Box.m */,
+			);
+			path = Lab2;
+			sourceTree = "<group>";
+		};
+		D0E2DA2C248ECD49003F7454 /* Lab13 */ = {
+			isa = PBXGroup;
+			children = (
+				D0E2DA2D248ECD49003F7454 /* main.m */,
+				D01104F72491AAEC002E96AC /* NSString+stringByPigLatinization.h */,
+				D01104F82491AAEC002E96AC /* NSString+stringByPigLatinization.m */,
+			);
+			path = Lab13;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D01104D72490ADD1002E96AC /* Math */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D01104DE2490ADD1002E96AC /* Build configuration list for PBXNativeTarget "Math" */;
+			buildPhases = (
+				D01104D42490ADD1002E96AC /* Sources */,
+				D01104D52490ADD1002E96AC /* Frameworks */,
+				D01104D62490ADD1002E96AC /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Math;
+			productName = Math;
+			productReference = D01104D82490ADD1002E96AC /* Math */;
+			productType = "com.apple.product-type.tool";
+		};
+		D032E806249710B600807D8D /* Payments */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D032E80D249710B600807D8D /* Build configuration list for PBXNativeTarget "Payments" */;
+			buildPhases = (
+				D032E803249710B600807D8D /* Sources */,
+				D032E804249710B600807D8D /* Frameworks */,
+				D032E805249710B600807D8D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Payments;
+			productName = Payments;
+			productReference = D032E807249710B600807D8D /* Payments */;
+			productType = "com.apple.product-type.tool";
+		};
+		D039C57B24999DF700A73A5E /* PizzaRestaurant */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D039C58224999DF700A73A5E /* Build configuration list for PBXNativeTarget "PizzaRestaurant" */;
+			buildPhases = (
+				D039C57824999DF700A73A5E /* Sources */,
+				D039C57924999DF700A73A5E /* Frameworks */,
+				D039C57A24999DF700A73A5E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PizzaRestaurant;
+			productName = PizzaRestaurant;
+			productReference = D039C57C24999DF700A73A5E /* PizzaRestaurant */;
+			productType = "com.apple.product-type.tool";
+		};
+		D05B468524932F4C001F4544 /* Foodtruck */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D05B468A24932F4C001F4544 /* Build configuration list for PBXNativeTarget "Foodtruck" */;
+			buildPhases = (
+				D05B468224932F4C001F4544 /* Sources */,
+				D05B468324932F4C001F4544 /* Frameworks */,
+				D05B468424932F4C001F4544 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Foodtruck;
+			productName = Foodtruck;
+			productReference = D05B468624932F4C001F4544 /* Foodtruck */;
+			productType = "com.apple.product-type.tool";
+		};
+		D083FBA124983FB8004F7FD9 /* ThreeLow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D083FBA624983FB8004F7FD9 /* Build configuration list for PBXNativeTarget "ThreeLow" */;
+			buildPhases = (
+				D083FB9E24983FB8004F7FD9 /* Sources */,
+				D083FB9F24983FB8004F7FD9 /* Frameworks */,
+				D083FBA024983FB8004F7FD9 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ThreeLow;
+			productName = ThreeLow;
+			productReference = D083FBA224983FB8004F7FD9 /* ThreeLow */;
+			productType = "com.apple.product-type.tool";
+		};
+		D0E2D99B248ECCBF003F7454 /* Lab1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0E2D9A0248ECCBF003F7454 /* Build configuration list for PBXNativeTarget "Lab1" */;
+			buildPhases = (
+				D0E2D998248ECCBF003F7454 /* Sources */,
+				D0E2D999248ECCBF003F7454 /* Frameworks */,
+				D0E2D99A248ECCBF003F7454 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lab1;
+			productName = Lab1;
+			productReference = D0E2D99C248ECCBF003F7454 /* Lab1 */;
+			productType = "com.apple.product-type.tool";
+		};
+		D0E2D9A6248ECCC4003F7454 /* Lab2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0E2D9AB248ECCC4003F7454 /* Build configuration list for PBXNativeTarget "Lab2" */;
+			buildPhases = (
+				D0E2D9A3248ECCC4003F7454 /* Sources */,
+				D0E2D9A4248ECCC4003F7454 /* Frameworks */,
+				D0E2D9A5248ECCC4003F7454 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lab2;
+			productName = Lab2;
+			productReference = D0E2D9A7248ECCC4003F7454 /* Lab2 */;
+			productType = "com.apple.product-type.tool";
+		};
+		D0E2DA2A248ECD49003F7454 /* Lab13 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0E2DA2F248ECD49003F7454 /* Build configuration list for PBXNativeTarget "Lab13" */;
+			buildPhases = (
+				D0E2DA27248ECD49003F7454 /* Sources */,
+				D0E2DA28248ECD49003F7454 /* Frameworks */,
+				D0E2DA29248ECD49003F7454 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lab13;
+			productName = Lab13;
+			productReference = D0E2DA2B248ECD49003F7454 /* Lab13 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D0E2D986248ECCAA003F7454 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Jose Hermilo Ortega Martinez";
+				TargetAttributes = {
+					D01104D72490ADD1002E96AC = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					D032E806249710B600807D8D = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					D039C57B24999DF700A73A5E = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					D05B468524932F4C001F4544 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					D083FBA124983FB8004F7FD9 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					D0E2D99B248ECCBF003F7454 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					D0E2D9A6248ECCC4003F7454 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					D0E2DA2A248ECD49003F7454 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = D0E2D989248ECCAA003F7454 /* Build configuration list for PBXProject "Labs Code" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D0E2D985248ECCAA003F7454;
+			productRefGroup = D0E2D98F248ECCAA003F7454 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0E2D99B248ECCBF003F7454 /* Lab1 */,
+				D0E2D9A6248ECCC4003F7454 /* Lab2 */,
+				D0E2DA2A248ECD49003F7454 /* Lab13 */,
+				D01104D72490ADD1002E96AC /* Math */,
+				D05B468524932F4C001F4544 /* Foodtruck */,
+				D032E806249710B600807D8D /* Payments */,
+				D083FBA124983FB8004F7FD9 /* ThreeLow */,
+				D039C57B24999DF700A73A5E /* PizzaRestaurant */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D01104D42490ADD1002E96AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D05B469824937086001F4544 /* ScoreKeeper.m in Sources */,
+				D05B46A124937985001F4544 /* QuestionManager.m in Sources */,
+				D05B46A724937CBA001F4544 /* SubstractionQuestion.m in Sources */,
+				D05B469B24937116001F4544 /* AdditionQuestion.m in Sources */,
+				D01104DB2490ADD1002E96AC /* main.m in Sources */,
+				D01104E12490AF4C002E96AC /* Question.m in Sources */,
+				D05B46AA24937CD9001F4544 /* DivisionQuestion.m in Sources */,
+				D05B46AD24937CE6001F4544 /* MultiplicationQuestion.m in Sources */,
+				D05B46A424937992001F4544 /* QuestionFactory.m in Sources */,
+				D05B469E249378A4001F4544 /* InputHandler.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D032E803249710B600807D8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D032E81F2497287900807D8D /* AmazonPaymentService.m in Sources */,
+				D032E80A249710B600807D8D /* main.m in Sources */,
+				D032E813249711AB00807D8D /* InputHandler.m in Sources */,
+				D032E82224972D7A00807D8D /* ApplePaymentService.m in Sources */,
+				D032E8192497181200807D8D /* PaypalPaymentService.m in Sources */,
+				D032E8102497110400807D8D /* PaymentGateway.m in Sources */,
+				D032E8162497180500807D8D /* StripePaymentService.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D039C57824999DF700A73A5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D039C58C2499A18100A73A5E /* Pizza.m in Sources */,
+				D039C59E249B4D3700A73A5E /* DeliveryCar.m in Sources */,
+				D039C58524999E6100A73A5E /* Kitchen.m in Sources */,
+				D039C5A4249B532F00A73A5E /* ManagerGood.m in Sources */,
+				D039C59B249B4D2B00A73A5E /* DeliveryService.m in Sources */,
+				D039C57F24999DF700A73A5E /* main.m in Sources */,
+				D039C5A1249B51DA00A73A5E /* Manager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D05B468224932F4C001F4544 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D05B469524936214001F4544 /* Cook2.m in Sources */,
+				D05B468924932F4C001F4544 /* main.m in Sources */,
+				D05B468F249340F0001F4544 /* FoodTruck.m in Sources */,
+				D05B469224935D70001F4544 /* Cook.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D083FB9E24983FB8004F7FD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D083FBAB24984060004F7FD9 /* Dice.m in Sources */,
+				D083FBB124984CF2004F7FD9 /* GameController.m in Sources */,
+				D083FBAE24984330004F7FD9 /* InputHandler.m in Sources */,
+				D083FBA524983FB8004F7FD9 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0E2D998248ECCBF003F7454 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0E2D99F248ECCBF003F7454 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0E2D9A3248ECCC4003F7454 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0E2D9AA248ECCC4003F7454 /* main.m in Sources */,
+				D01104D324909DD3002E96AC /* Box.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0E2DA27248ECD49003F7454 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D01104F92491AAEC002E96AC /* NSString+stringByPigLatinization.m in Sources */,
+				D0E2DA2E248ECD49003F7454 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D01104DC2490ADD1002E96AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4TBQQ7U378;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D01104DD2490ADD1002E96AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4TBQQ7U378;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D032E80B249710B600807D8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4TBQQ7U378;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D032E80C249710B600807D8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4TBQQ7U378;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D039C58024999DF700A73A5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4TBQQ7U378;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D039C58124999DF700A73A5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4TBQQ7U378;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D05B468B24932F4C001F4544 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4TBQQ7U378;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D05B468C24932F4C001F4544 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4TBQQ7U378;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D083FBA724983FB8004F7FD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4TBQQ7U378;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D083FBA824983FB8004F7FD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4TBQQ7U378;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D0E2D993248ECCAA003F7454 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D0E2D994248ECCAA003F7454 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D0E2D9A1248ECCBF003F7454 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4TBQQ7U378;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D0E2D9A2248ECCBF003F7454 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4TBQQ7U378;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D0E2D9AC248ECCC4003F7454 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4TBQQ7U378;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D0E2D9AD248ECCC4003F7454 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4TBQQ7U378;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D0E2DA30248ECD49003F7454 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4TBQQ7U378;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D0E2DA31248ECD49003F7454 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4TBQQ7U378;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D01104DE2490ADD1002E96AC /* Build configuration list for PBXNativeTarget "Math" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D01104DC2490ADD1002E96AC /* Debug */,
+				D01104DD2490ADD1002E96AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D032E80D249710B600807D8D /* Build configuration list for PBXNativeTarget "Payments" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D032E80B249710B600807D8D /* Debug */,
+				D032E80C249710B600807D8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D039C58224999DF700A73A5E /* Build configuration list for PBXNativeTarget "PizzaRestaurant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D039C58024999DF700A73A5E /* Debug */,
+				D039C58124999DF700A73A5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D05B468A24932F4C001F4544 /* Build configuration list for PBXNativeTarget "Foodtruck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D05B468B24932F4C001F4544 /* Debug */,
+				D05B468C24932F4C001F4544 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D083FBA624983FB8004F7FD9 /* Build configuration list for PBXNativeTarget "ThreeLow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D083FBA724983FB8004F7FD9 /* Debug */,
+				D083FBA824983FB8004F7FD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0E2D989248ECCAA003F7454 /* Build configuration list for PBXProject "Labs Code" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0E2D993248ECCAA003F7454 /* Debug */,
+				D0E2D994248ECCAA003F7454 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0E2D9A0248ECCBF003F7454 /* Build configuration list for PBXNativeTarget "Lab1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0E2D9A1248ECCBF003F7454 /* Debug */,
+				D0E2D9A2248ECCBF003F7454 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0E2D9AB248ECCC4003F7454 /* Build configuration list for PBXNativeTarget "Lab2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0E2D9AC248ECCC4003F7454 /* Debug */,
+				D0E2D9AD248ECCC4003F7454 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0E2DA2F248ECD49003F7454 /* Build configuration list for PBXNativeTarget "Lab13" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0E2DA30248ECD49003F7454 /* Debug */,
+				D0E2DA31248ECD49003F7454 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D0E2D986248ECCAA003F7454 /* Project object */;
+}

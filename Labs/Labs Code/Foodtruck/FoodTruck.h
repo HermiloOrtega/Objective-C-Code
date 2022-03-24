@@ -1,0 +1,23 @@
+//
+//  FoodTruck.h
+//  Foodtruck
+//
+//  Created by Jose Hermilo Ortega Martinez on 2020-06-11.
+//  Copyright © 2020 Jose Hermilo Ortega Martinez. All rights reserved.
+//
+
+#import <Foundation/Foundation.h>
+
+@class FoodTruck;
+    @protocol FoodTruckDelegate <NSObject>
+    -(double)foodTruck:(FoodTruck *)truck priceForFood:(NSString *)food;
+@end
+
+@interface FoodTruck : NSObject
+    // Public Property
+        @property (nonatomic, weak) id<FoodTruckDelegate>delegate;
+    // Public Methods
+        - (instancetype) initWithName:(NSString *)pun andFoodType:(NSString *)foodType;
+        - (void) serve:(int)orders;
+        - (void) cashOut;
+@end
